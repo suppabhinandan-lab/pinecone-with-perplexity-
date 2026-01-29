@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/chat"; // Your Express backend URL
+const API_URL = "https://pinecone-with-perplexity.onrender.com/api/chat"; // Your Express backend URL
 
 export const sendMessage = async (message) => {
   try {
