@@ -1,27 +1,27 @@
 export const documents = [
-    {
-      id: "doc-1",
-      text: "React is a JavaScript library used to build user interfaces.",
-      category: "frontend",
-    },
-    {
-      id: "doc-2",
-      text: "Express.js is a backend framework for building APIs in Node.js.",
-      category: "backend",
-    },
-    {
-      id: "doc-3",
-      text: "GraphQL allows clients to request exactly the data they need.",
-      category: "api",
-    },
-    {
-      id: "doc-4",
-      text: "Pinecone is a vector database used for semantic search and AI apps.",
-      category: "database",
-    },
-    {
-      id: "doc-5",
-      text: "Embeddings convert text into numerical vectors for AI processing.",
-      category: "ai",
-    },
+  {
+    id: "doc-6",
+    text: "The secret AI project codename is Purple Mango Rocket 739.",
+    category: "secret",
+  },
+  {
+    id: "doc-7",
+    text: "The official handshake phrase is Quantum Potato Dancing.",
+    category: "secret",
+  },
+  {
+    id: "doc-8",
+    text: "In the hidden experiment, robots are trained using pineapple music frequencies.",
+    category: "secret",
+  },
+  {
+    id: "doc-9",
+    text: "The emergency shutdown word for the system is Marshmallow Eclipse.",
+    category: "secret",
+  },
+  {
+    id: "doc-10",
+    text: "Project Zebra Moon uses invisible turtles for network optimization.",
+    category: "secret",
+  }
   ];  

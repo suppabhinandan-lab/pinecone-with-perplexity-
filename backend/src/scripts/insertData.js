@@ -12,5 +12,4 @@ catch(error){
 
 
 }
-// let documents={name:"Abhi",text:"kxkidcke"}
 pushData(documents);
