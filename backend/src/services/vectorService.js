@@ -1,17 +1,6 @@
 import { index } from "../config/pinecone.js";
 import { getEmbedder } from "../config/embedder.js";
 
-// export async function storeText(id, text) {
-//   const embedder = await getEmbedder();
-//   const emb = await embedder(text, { pooling: "mean", normalize: true });
-
-//   await index.upsert([{
-//     id,
-//     values: Array.from(emb.data),
-//     metadata: { text },
-//   }]);
-// }
-
 export async function storeDocument(documents){
    const embedder = await getEmbedder();
    const vectors=await Promise.all(documents.map(async doc=>{

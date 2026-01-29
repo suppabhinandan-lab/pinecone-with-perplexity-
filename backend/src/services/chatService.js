@@ -14,11 +14,5 @@ export async function generateAnswer(question, context) {
       { role: "user", content: `Context:\n${context}\n\nQ:${question}` },
     ],
   });
-  // const stats = await index.describeIndexStats();
-  // console.log(stats);
-
-  const result =   await index.fetch(ids=["doc-1"]                                      )
-    console.log(result); // [{ id: 'doc1#chunk1' }, { id: 'doc2#chunk1' }, ...]
-
   return res.choices[0].message.content;
 }
