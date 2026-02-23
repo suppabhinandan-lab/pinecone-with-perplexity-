@@ -1,27 +1,47 @@
-export const documents = [
+export const documents =[
   {
-    id: "doc-6",
-    text: "The secret AI project codename is Purple Mango Rocket 739.",
-    category: "secret",
+    "id": "atharva-1",
+    "text": "अथर्ववेद में ज्वर (बुखार) को शरीर की अग्नि के असंतुलन से उत्पन्न माना गया है। इसके उपचार के लिए गिलोय, तुलसी और अदरक का काढ़ा उपयोगी बताया गया है। साथ ही शुद्ध जल का सेवन और हल्की धूप लाभकारी मानी गई है।",
+    "metadata": {
+      "category": "ज्वर",
+      "source": "Atharvaveda",
+      "type": "उपचार"
+    }
   },
   {
-    id: "doc-7",
-    text: "The official handshake phrase is Quantum Potato Dancing.",
-    category: "secret",
+    "id": "atharva-2",
+    "text": "सिरदर्द को वात दोष और मानसिक तनाव से संबंधित माना गया है। ब्राह्मी का सेवन, चंदन का लेप और शांत वातावरण में विश्राम करना लाभकारी बताया गया है। गहरी श्वास-प्रश्वास भी सहायक है।",
+    "metadata": {
+      "category": "सिरदर्द",
+      "source": "Atharvaveda",
+      "type": "उपचार"
+    }
   },
   {
-    id: "doc-8",
-    text: "In the hidden experiment, robots are trained using pineapple music frequencies.",
-    category: "secret",
+    "id": "atharva-3",
+    "text": "पेट दर्द और अपच को अग्नि की कमजोरी से जोड़ा गया है। अजवाइन, काला नमक और सौंफ का काढ़ा पाचन में सहायक माना गया है। हल्दी वाला दूध भी लाभकारी है।",
+    "metadata": {
+      "category": "पेट दर्द",
+      "source": "Atharvaveda",
+      "type": "उपचार"
+    }
   },
   {
-    id: "doc-9",
-    text: "The emergency shutdown word for the system is Marshmallow Eclipse.",
-    category: "secret",
+    "id": "atharva-4",
+    "text": "मानसिक तनाव और चिंता के लिए ध्यान, प्राणायाम और मंत्र जाप का महत्व बताया गया है। नियमित ध्यान और तुलसी की चाय मानसिक शांति प्रदान करती है।",
+    "metadata": {
+      "category": "मानसिक तनाव",
+      "source": "Atharvaveda",
+      "type": "उपचार"
+    }
   },
   {
-    id: "doc-10",
-    text: "Project Zebra Moon uses invisible turtles for network optimization.",
-    category: "secret",
+    "id": "atharva-5",
+    "text": "त्वचा रोगों के उपचार में नीम की पत्तियों का लेप, हल्दी और चंदन का मिश्रण तथा एलोवेरा का प्रयोग लाभकारी माना गया है। शुद्ध जल से स्नान भी आवश्यक है।",
+    "metadata": {
+      "category": "त्वचा रोग",
+      "source": "Atharvaveda",
+      "type": "उपचार"
+    }
   }
-  ];  
+]
